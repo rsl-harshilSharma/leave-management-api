@@ -55,6 +55,9 @@ After running the app and tests, save screenshots in `screenshots/` and include:
 - `application-startup.png` — terminal showing the Spring Boot application started
 - `api-create-leave.png` — successful `POST /leaves` request and response (for example, in Postman)
 - `api-list-leaves.png` — successful `GET /leaves` response
-- `tests-passing.png` — terminal showing `mvn test` succeeded
+- `api-get-leave-by-id.png` — successful `GET /leaves/{id}` response
+- `api-update-leave.png` — successful `PUT /leaves/{id}` request and response
+- `api-delete-leave.png` — successful `DELETE /leaves/{id}` response
+- `tests-passing.png` — terminal showing all tests passing
 
 Do not include access tokens, private employee data, or other credentials in screenshots.
